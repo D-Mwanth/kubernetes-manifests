@@ -42,7 +42,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: mwanthi/checkoutservice:v1.0.0
+          image: mwanthi/checkoutservice:v1.0.1
           ports:
           - containerPort: 5050
           readinessProbe:

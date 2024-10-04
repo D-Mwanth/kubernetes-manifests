@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: mwanthi/cartservice:v1.0.0
+        image: mwanthi/cartservice:v1.0.1
         ports:
         - containerPort: 7070
         env:
