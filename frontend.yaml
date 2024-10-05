@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: mwanthi/frontend:v0.0.1
+          image: mwanthi/frontend:v1.0.0
           ports:
           - containerPort: 8080
           readinessProbe:

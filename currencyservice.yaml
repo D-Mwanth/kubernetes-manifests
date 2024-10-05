@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: mwanthi/currencyservice:v0.0.1
+        image: mwanthi/currencyservice:v1.0.0
         ports:
         - name: grpc
           containerPort: 7000

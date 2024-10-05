@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: mwanthi/productcatalogservice:v0.0.1
+        image: mwanthi/productcatalogservice:v1.0.0
         ports:
         - containerPort: 3550
         env:
