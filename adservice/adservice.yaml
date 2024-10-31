@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: mwanthi/adservice:v0.0.1
+        image: mwanthi/adservice:v0.0.2
         ports:
         - containerPort: 9555
         env:
